@@ -6,7 +6,7 @@ from streamlit_folium import st_folium
 path1 = "Location.csv"
 df = pd.read_csv(path1)
 
-path2 = "LinearAccelerometer.csv"
+path2 = "Linear Accelerometer.csv"
 df2 = pd.read_csv(path2)
 
 st.title('Tulokset')
